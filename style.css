@@ -1,0 +1,103 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}    
+.container {
+    margin: auto;
+    padding-top: 1px;
+    background-color: #777; /* Color for background "container" */
+    color: #777;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-sefif;
+    width: 960px;       /* Set width per instructions */
+    height: 550px;
+    font-size: 18px;    /* Set font-size per instructions */  
+}
+header {
+    background-color: #ebebeb;
+    text-align: center;
+    margin-left: 10%;   
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav {
+    background-color: #ebebeb;
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    width: 80%;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+}
+section {
+    background-color: #ebebeb;
+    text-align: center;
+    margin-left: 10%;
+    width: 495px;       /* Set width of "section" per instructions */
+    height: 250px;    
+    font-size: 18px;
+    padding-top: 20px;
+}
+article {
+    background-color: #777;
+    color: #ebebeb;
+    margin-left: 10px;
+    margin-top: 25px;
+    width: 475px;
+    height: 175px;
+    font-size: 18px;
+    padding-top: 10px;  
+}
+#sub-headers {
+    background-color: #ebebeb;
+    color: #777;
+    width: 450px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 12px;
+}
+#paragraph {
+    background-color: #ebebeb;
+    color: #777;
+    width: 450px;
+    height: 50px;
+    font-size: 18px;
+    margin-left: 12px;
+    margin-top: 10px;
+    padding-top: 10px; 
+}
+aside {
+    background-color: #ebebeb;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 263px;
+    height: 250px;  
+    font-size: 18px;  
+    padding-top: 20px;
+    margin-left: 1%;        /* Creates space between section and aside */
+}
+footer {
+    background-color: #ebebeb;
+    text-align: center;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  
+  section {
+    float: left;
+  }
+  
+  aside {
+    float: left;
+  }
